@@ -1,0 +1,42 @@
+<html>
+    <header>
+        <link rel = "icon" type = "image/png" href="static/favicon16.png">
+    </header>
+
+<head>
+    <title>FTC Team 7159</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <a href="Home" id = "linkref"> <li>Home</li> </a>
+            <a href="AboutTeam" id = "linkref"> <li>About The Team</li> </a>
+            <a href="Sponsors" id = "linkref"> <li>Sponsors</li> </a>
+            <a href="Outreach" id = "linkref"> <li>Outreach</li> </a>
+            <a href="ContactUs" id = "linkref"> <li>Contact Us</li> </a>
+        </ul>
+        <div class="handle"> Menu </div>
+    </nav>
+    
+    <section>
+        Hello, We are FTC Team 7159, the RoboRavens
+        <img src="static/RoboRavensLogo.png" height ="300"width = "300">
+        <p>
+            Why are we still here?
+            Just to suffer?
+        </p>
+    </section>
+    <script>
+        $('.handle').on('click', function(){
+            $('nav ul').toggleClass('showing');
+        });
+    </script>
+</body>
+
+
+</html>
