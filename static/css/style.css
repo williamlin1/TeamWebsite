@@ -4,6 +4,23 @@ body{
     font-family: sans-serif;
 }
 
+
+.space{
+    width:15%;
+    float: left;
+    height: 100%;
+}
+
+.mainBody{
+    width:66%;
+    margin-left:2%;
+    margin-right:2%;
+    float: left;
+    height:100%;
+}
+
+
+
 nav ul{
     margin:0;
     background-color: #000000;
